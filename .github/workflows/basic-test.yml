@@ -13,7 +13,7 @@ jobs:
         id: runcmd
         with:
           arch: riscv64
-          distro: archlinux
+          distro: archriscv_latest
 
           # Not required, but speeds up builds
           githubToken: ${{ github.token }}
